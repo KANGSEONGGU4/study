@@ -1,3 +1,7 @@
+<img width="1180" alt="image" src="https://github.com/KANGSEONGGU4/study/assets/132239219/14a460c4-b823-40f4-b060-213b20e51d2a">
+
+
+
 Lambda architecture
 
 Lamb architecture의 경우 batch processing, realtime stream processing이 결합된 구조

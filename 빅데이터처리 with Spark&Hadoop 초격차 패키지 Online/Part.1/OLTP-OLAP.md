@@ -1,4 +1,5 @@
 1. OLTP (Online Transaction Processing)
+
 (1) OLTP의 정의
   -'운영'계 데이터 및 데이터를 처리하는 방법을 의미
   -복수의 사용자 PC에서 발생되는 트랜잭션(Transaction)을 
@@ -16,6 +17,7 @@
   -데이터 간의 구조를 잘 정리하려고 노력
 
 2. OLAP (Online Analytical Processing)
+   
 (1) OLAP의 정의
   -'분석'계 데이터 및 데이터를 처리하는 방법을 의미
   -데이터 웨어하우스 (DW), DB에 저장되어 있는 데이터를 분석, 

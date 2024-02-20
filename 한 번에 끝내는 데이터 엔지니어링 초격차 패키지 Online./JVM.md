@@ -1,7 +1,6 @@
 ![image](https://github.com/KANGSEONGGU4/study/assets/132239219/5692ec31-05f3-4961-ba92-c2fd33cdf559)   
 
-Java Virtual Machine의 줄임말.
-
+Java Virtual Machine의 줄임말.   
 직역하면 '자바를 실행하기 위한 가상 기계(컴퓨터)'라고 할 수 있다.
 
 Java 는 OS에 종속적이지 않다는 특징을 가지고 있다. OS에 종속받지 않고 실행되기 위해선 OS 위에서 Java 를 실행시킬 무언가가 필요하다. 그게 바로 JVM이다.

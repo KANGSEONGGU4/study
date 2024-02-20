@@ -1,19 +1,15 @@
 ![image](https://github.com/KANGSEONGGU4/study/assets/132239219/5692ec31-05f3-4961-ba92-c2fd33cdf559)   
 
 Java Virtual Machine의 줄임말.   
-직역하면 '자바를 실행하기 위한 가상 기계(컴퓨터)'라고 할 수 있다.
-Java 는 OS에 종속적이지 않다는 특징을 가지고 있다. OS에 종속받지 않고 실행되기 위해선 OS 위에서 Java 를 실행시킬 무언가가 필요하다. 그게 바로 JVM이다.
-즉, OS에 종속받지 않고 CPU 가 Java를 인식, 실행할 수 있게 하는 가상 컴퓨터이다.
+직역하면 '자바를 실행하기 위한 가상 기계(컴퓨터)'라고 할 수 있다.   
+Java 는 OS에 종속적이지 않다는 특징을 가지고 있다. OS에 종속받지 않고 실행되기 위해선 OS 위에서 Java 를 실행시킬 무언가가 필요하다. 그게 바로 JVM이다.   
+즉, OS에 종속받지 않고 CPU 가 Java를 인식, 실행할 수 있게 하는 가상 컴퓨터이다.   
 
+ 컴파일 과정
  
-
-
-컴파일 과정
 Java 소스코드, 즉 원시코드(*.java)는 CPU가 인식을 하지 못하므로 기계어로 컴파일을 해줘야한다.
 
 하지만 Java는 이 JVM 이라는 가상머신을 거쳐서 OS에 도달하기 때문에 OS가 인식할 수 있는 기계어로 바로 컴파일 되는게 아니라 JVM이 인식할 수 있는 Java bytecode(*.class)로 변환된다.
-
- 
 
 Java compiler 가 .java 파일을 .class 라는 Java bytecode로 변환한다.
 

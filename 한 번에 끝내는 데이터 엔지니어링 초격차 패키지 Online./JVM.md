@@ -1,4 +1,5 @@
-![image](https://github.com/KANGSEONGGU4/study/assets/132239219/5692ec31-05f3-4961-ba92-c2fd33cdf559)
+![image](https://github.com/KANGSEONGGU4/study/assets/132239219/5692ec31-05f3-4961-ba92-c2fd33cdf559)   
+
 Java Virtual Machine의 줄임말.
 
 직역하면 '자바를 실행하기 위한 가상 기계(컴퓨터)'라고 할 수 있다.

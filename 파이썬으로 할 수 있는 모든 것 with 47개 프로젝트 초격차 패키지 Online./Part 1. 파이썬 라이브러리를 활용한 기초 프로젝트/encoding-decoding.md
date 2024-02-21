@@ -53,8 +53,8 @@ b'\xed\x95\x9c\xea\xb8\x80'
 UnicodeDecodeError: 'ascii' codec can't decode byte 0xed in position 0: ordinal not in range(128)   
 
 > ## 소스 코드의 인코딩 디코딩
-> - 소스 코드 파일이 현재 어떤 방식으로 인코딩되었지 명시하는 방법 <br>
-> - 파이썬 셸이 아닌 편집기로 코딩할 때는 소스 코드의 인코딩이 매우 중요**
+> - 소스 코드 파일이 현재 어떤 방식으로 인코딩되었지 명시하는 방법
+> - 파이썬 셸이 아닌 편집기로 코딩할 때는 소스 코드의 인코딩이 매우 중요
 > - Python 2.X 버전은 'ascii' 가 기본 인코딩 방식
 > - Python 3.0 부터는 'utf-8' 이 기본 인코딩 방식
 

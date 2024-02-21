@@ -1,4 +1,5 @@
-<img src='img/befunky-collagepython-1024x767.png' width='500' height='500'/>
+<img width="597" alt="image" src="https://github.com/KANGSEONGGU4/study/assets/132239219/f138c06c-c90a-4525-b728-c208a9dd2c4c">
+
 
 ## 인코딩 (Encoding)   
 - 인코딩 = 코드화 = 암호화 = 부호화
@@ -8,3 +9,11 @@
   		# 문자열 (사람이 이해할 수 있는 형식)
   		a = "Life is too shot"
   		type(a)
+
+str
+
+    # utf-8 인코딩 (가장 많이 사용되는 유니코드 인코딩)
+    b = a.encode('utf-8')
+    type(b)
+
+bytes

@@ -1,11 +1,14 @@
 <img width="597" alt="image" src="https://github.com/KANGSEONGGU4/study/assets/132239219/f138c06c-c90a-4525-b728-c208a9dd2c4c">   
 
+<br>
 
 >  ## 인코딩 (Encoding)
 > 
 >  - 인코딩 = 코드화 = 암호화 = 부호화
 >  - '컴퓨터에서 인코딩은 동영상이나 문자 인코딩 뿐 아니라 사람이 인지할 수 있는 형태의 데이터를 약속된 규칙에 의해 컴퓨터가 사용하는 0과 1로 변환하는 과정을 통틀어 말합니다'
 >  - 'ASCII','URL인코딩','HTML인코딩','Base64인코딩','유니코드인코딩' 등이 존재
+
+<br>
 
   		# 문자열 (사람이 이해할 수 있는 형식)
   		a = "Life is too shot"
@@ -51,6 +54,8 @@ b'\xed\x95\x9c\xea\xb8\x80'
     b.decode('ascii')
 
 UnicodeDecodeError: 'ascii' codec can't decode byte 0xed in position 0: ordinal not in range(128)   
+
+<br>
 
 > ## 소스 코드의 인코딩 디코딩
 > - 소스 코드 파일이 현재 어떤 방식으로 인코딩되었지 명시하는 방법

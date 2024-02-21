@@ -5,10 +5,11 @@
 >   - 함수의 순차적 실행
 >   - 데코레이터 함수
 
-    # 받은 수에 3을 곱하는 함수
-    def mul3(n):
-        return n * 3   
+## 클래스(Class) 사용하기
 
-    mul3(3)
+    class Mul:
+    def __init__(self, m):
+        self.m = m
 
-9
+    def mul(self, n):
+        return self.m * n

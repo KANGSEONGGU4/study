@@ -55,7 +55,8 @@ b'\xed\x95\x9c\xea\xb8\x80'
 
 UnicodeDecodeError: 'ascii' codec can't decode byte 0xed in position 0: ordinal not in range(128)   
 
-<br/>
+<br/><br/>
+
 
 > ## 소스 코드의 인코딩 디코딩
 > - 소스 코드 파일이 현재 어떤 방식으로 인코딩되었지 명시하는 방법

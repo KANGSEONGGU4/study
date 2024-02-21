@@ -42,7 +42,8 @@
         print(mul3(10))  # m = 3, n = 10 인 wrapper 함수가 실행
         print(mul5(10))  # m = 5, n = 10 인 wrapper 함수가 실행
 
-30   50 
+30   
+50 
 
 <br>
 

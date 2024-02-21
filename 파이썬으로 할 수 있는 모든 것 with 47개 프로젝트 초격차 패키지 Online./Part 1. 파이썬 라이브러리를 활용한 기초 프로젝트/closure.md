@@ -106,5 +106,65 @@ def func2(a, b):
     val = a * b   
     return val
 ~~~
+~~~
+''' 실행 시간 측정 데코레이터 '''
+def elapsed(func):                                     # 함수를 인풋으로 받는다.
+    def wrapper(a, b):
+        print('함수가 실행됩니다.')
+        start = time.time()
+        result = func(a, b)                            # 함수 실행
+        end = time.time()
+        print("함수 수행시간: %f 초" % (end - start))  # 함수 수행시간
+        return result                                  # 함수 실행 결과 반환
+    return wrapper
+~~~
+~~~
+if __name__ == "__main__":
+    deco1 = elapsed(func1)
+    result = deco1(1,2)
+    print(result)
+~~~
+함수가 실행됩니다.   
+함수 수행시간: 0.000001 초   
+3   
 
-    
+~~~
+if __name__ == "__main__":
+    deco2 = elapsed(func2)
+    result = deco2(1,2)
+    print(result)
+~~~
+
+함수가 실행됩니다.   
+함수 수행시간: 0.000001 초   
+2   
+
+~~~
+@elapsed
+def func1(a, b):
+    val = a + b   
+    return val
+
+@elapsed
+def func2(a, b):
+    val = a * b   
+    return val
+~~~
+~~~
+if __name__ == "__main__":
+    result = func1(1,2)
+    print(result)
+~~~
+함수가 실행됩니다.   
+함수 수행시간: 0.000001 초   
+3   
+
+~~~
+if __name__ == "__main__":
+    result = func2(1,2)
+    print(result)
+~~~
+함수가 실행됩니다.   
+함수 수행시간: 0.000001 초   
+2   
+

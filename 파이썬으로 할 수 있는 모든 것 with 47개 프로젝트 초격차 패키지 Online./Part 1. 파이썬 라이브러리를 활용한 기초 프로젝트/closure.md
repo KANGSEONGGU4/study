@@ -7,7 +7,7 @@
 
     # 받은 수에 3을 곱하는 함수
     def mul3(n):
-        return n * 3
+        return n * 3   
 
     mul3(3)
 

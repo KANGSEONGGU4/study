@@ -33,6 +33,9 @@ b'Life is too short'
 
 b'\xed\x95\x9c\xea\xb8\x80'   
 
+<br/><br/>
+
+
 >  ## 디코딩 (Decoding)
 >   - 디코딩 = 역코드화 = 복호화
 >   - 사람이 이해할 수 있는 언어로 돌려주는 것

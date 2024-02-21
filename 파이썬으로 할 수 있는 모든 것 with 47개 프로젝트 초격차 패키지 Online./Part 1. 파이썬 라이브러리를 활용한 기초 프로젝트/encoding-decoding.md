@@ -1,6 +1,6 @@
 <img width="597" alt="image" src="https://github.com/KANGSEONGGU4/study/assets/132239219/f138c06c-c90a-4525-b728-c208a9dd2c4c">   
 
-<br\>
+<br/>
 
 >  ## 인코딩 (Encoding)
 > 

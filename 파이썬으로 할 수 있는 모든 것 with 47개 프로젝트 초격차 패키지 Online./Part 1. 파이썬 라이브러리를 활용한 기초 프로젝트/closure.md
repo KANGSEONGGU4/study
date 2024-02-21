@@ -24,7 +24,9 @@
         print(mul5.mul(10)) 
 
 30   
-50   
+50  
+
+<br>
 
 ### 2.클로저(Closure) 사용하기
 
@@ -40,8 +42,9 @@
         print(mul3(10))  # m = 3, n = 10 인 wrapper 함수가 실행
         print(mul5(10))  # m = 5, n = 10 인 wrapper 함수가 실행
 
-30
-50   
+30   50 
+
+<br>
 
 > ## 데코레이터 (Decorator)
 > - 'decorate'는 '꾸미다, 장식하다'라는 뜻으로 함수를 꾸며주는 함수.
@@ -92,5 +95,15 @@
 2   
 
 ### 데코레이터 만들기
+
+'''
+def func1(a, b):
+    val = a + b   
+    return val
+
+def func2(a, b):
+    val = a * b   
+    return val
+'''
 
     

@@ -97,7 +97,7 @@
 
 ### 데코레이터 만들기
 
-'''
+~~~
 def func1(a, b):
     val = a + b   
     return val
@@ -105,6 +105,6 @@ def func1(a, b):
 def func2(a, b):
     val = a * b   
     return val
-'''
+~~~
 
     

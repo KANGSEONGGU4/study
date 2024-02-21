@@ -30,7 +30,7 @@ b'Life is too short'
 
 b'\xed\x95\x9c\xea\xb8\x80'   
 
->  디코딩 (Decoding)
+>  ## 디코딩 (Decoding)
 >   - 디코딩 = 역코드화 = 복호화
 >   - 사람이 이해할 수 있는 언어로 돌려주는 것
 >   - 위에서 소개된 인코딩 표의 역과 같음
